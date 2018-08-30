@@ -141,3 +141,37 @@ app-component-sidenav {
     flex: 1 0 auto;
   }
 }
+
+.teste-div-content-blue {
+  background-color: blue;
+  height: 2000px;
+  flex-grow: 1;
+  -webkit-box-flex: 1;
+  font-weight: 400;
+  padding: 20px;
+}
+
+.teste-div-content-verde {
+  background-color: green;
+  
+}
+
+.teste-div-content-verde_segundo{
+  position: sticky;
+  top: 25px;
+}
+
+.teste-div-content-verde_terceiro{
+  background-color: gold;
+  margin: 25px;
+  width: 240px;
+  height: 150px;
+  max-height: 75vh;
+  overflow: auto;
+}
+
+.teste-div-content-amarelo{
+  background-color: gold;
+  height: 75px;
+}
+

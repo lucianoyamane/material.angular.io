@@ -6,6 +6,7 @@ import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 import {RouterModule} from '@angular/router';
 import {MatNativeDateModule} from '@angular/material';
+import {MatSidenavModule} from '@angular/material'
 import {ExampleModule} from '@angular/material-examples';
 
 import {MaterialDocsApp} from './material-docs-app';
@@ -46,6 +47,7 @@ import {GaService} from './shared/ga/ga';
     HttpModule,
     HttpClientModule,
     MatNativeDateModule,
+    MatSidenavModule,
     RouterModule.forRoot(MATERIAL_DOCS_ROUTES),
     ServiceWorkerModule.register('/ngsw-worker.js', {enabled: environment.production}),
     ComponentCategoryListModule,
